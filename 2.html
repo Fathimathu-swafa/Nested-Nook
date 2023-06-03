@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=""width=device-width, initial scale="1.0">
+    <title>starlet</title>
+    </head>
+    <style>
+        h1 {
+          font-size: 24px;
+          margin-bottom:px;
+          margin-left: 300px;
+        }
+      
+        h2 {
+          color:#353c37;
+          font-size: 18px;
+          margin-top: 20px;
+          margin-left: 00px;
+        }
+
+        body{
+            background-image:url("cc.jpg");
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+    }
+    .forms-container {
+    display: flex;
+    
+    
+  }
+
+  .form1 {
+    width: 20%;
+    justify-content: right;
+    margin-left: 500px;
+    margin-top: 10px;
+
+    
+  }
+
+  .form2 {
+    width: 20%;
+    justify-content:left;
+    margin-left: 500px;
+    margin-top: 10px;
+
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #fafcfb ;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color:transparent;
+  }
+
+    </style>
+    <body>
+        <h1>PERSONAL INFO:</h1>
+    <h2>
+        <div class="forms-container">
+            <form class="form1" action="/submit-form1" method="POST">
+        <label>Name:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Age:</label>
+        <br>
+        <input type="number">
+        <br>
+        <label>Height:</label>
+        <br>
+        <input type="number">
+        <br>
+        <label>Weight:</label>
+        <br>
+        <input type = "number">
+        <br>
+        <label>Blood Group:</label>
+        <br>
+        <input type="text">
+    </form>
+    
+    </h2>
+    <h1>Recent Test Reports:</h1>
+    <h2>
+        <form class="form2" action="/submit-form2" method="POST">
+        <label>Diabetics:</label>
+        <br>
+        <input type="number">
+        <br>
+        <label>AFP Test:</label>
+        <br>
+        <input type="number">
+        <br>
+        <label>Amniocentesis:</label>
+        <br>
+        <input type = "number">
+        <br>
+        <label>Ultra Sound Scan:</label>
+        <br>
+        <input type="number">
+        <br>
+        <label>Blood Pressure:</label>
+        <br>
+        <input type = "number"><br>
+        <input type="submit" value="Submit">
+
+    </form>
+    </h2>
+</div>
+    </body>
